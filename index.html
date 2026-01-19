@@ -52,6 +52,7 @@
             font-style: italic;
             color: var(--text-secondary);
             margin-top: 2px;
+            white-space: nowrap;
         }
         .nav-links { display: flex; gap: 3rem; list-style: none; }
         .nav-links a {
@@ -278,15 +279,15 @@
             <div class="hero-slide" onclick="openVideo('tV9sQ1H8D1M')">
                 <img src="https://i.ytimg.com/vi/tV9sQ1H8D1M/maxresdefault.jpg" alt="RISE Initiative">
                 <div class="hero-slide-info">
-                    <p class="hero-slide-category">Nonprofit</p>
+                    <p class="hero-slide-category">Discovery x Save the Children</p>
                     <h2 class="hero-slide-title">RISE Initiative</h2>
                 </div>
             </div>
             <div class="hero-slide" onclick="openVideo('bxHdZuhCZxk')">
                 <img src="https://i.ytimg.com/vi/bxHdZuhCZxk/maxresdefault.jpg" alt="BodyArmor">
                 <div class="hero-slide-info">
-                    <p class="hero-slide-category">Coca-Cola</p>
-                    <h2 class="hero-slide-title">BodyArmor Sizzle</h2>
+                    <p class="hero-slide-category">Sizzle</p>
+                    <h2 class="hero-slide-title">BodyArmor - Gatorade Diss</h2>
                 </div>
             </div>
         </div>
@@ -322,16 +323,16 @@
                 <img src="https://i.ytimg.com/vi/bxHdZuhCZxk/maxresdefault.jpg" alt="BodyArmor">
                 <div class="play-icon"></div>
                 <div class="work-overlay">
-                    <span class="work-category">Coca-Cola</span>
-                    <h3 class="work-title">BodyArmor Sizzle</h3>
+                    <span class="work-category">Sizzle</span>
+                    <h3 class="work-title">BodyArmor - Gatorade Diss</h3>
                 </div>
             </div>
             <div class="work-item" onclick="openVideo('2u21JSGqMFs')">
                 <img src="https://i.ytimg.com/vi/2u21JSGqMFs/maxresdefault.jpg" alt="Science of Hydration">
                 <div class="play-icon"></div>
                 <div class="work-overlay">
-                    <span class="work-category">Coca-Cola</span>
-                    <h3 class="work-title">Science of Hydration</h3>
+                    <span class="work-category">Explainer</span>
+                    <h3 class="work-title">The Science of Hydration</h3>
                 </div>
             </div>
             <div class="work-item" onclick="openVideo('XSwcvQlc-bo')">
@@ -343,19 +344,27 @@
                 </div>
             </div>
             <div class="work-item" onclick="openVideo('fnyohnmzIw8')">
-                <img src="https://i.ytimg.com/vi/fnyohnmzIw8/maxresdefault.jpg" alt="MythBusters">
+                <img src="https://i.ytimg.com/vi/fnyohnmzIw8/hqdefault.jpg" alt="MythBusters">
                 <div class="play-icon"></div>
                 <div class="work-overlay">
                     <span class="work-category">Science Channel</span>
                     <h3 class="work-title">MythBusters Marathon</h3>
                 </div>
             </div>
-            <div class="work-item" onclick="openImageCarousel()">
-                <img src="https://drive.google.com/uc?export=view&id=1ds7ojXwQ2NKr9VipekFeyyFrlp7cNz0e" alt="NASCAR">
+            <div class="work-item" onclick="openNASCARCarousel()">
+                <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=800&h=450&fit=crop" alt="NASCAR">
                 <div class="play-icon"></div>
                 <div class="work-overlay">
                     <span class="work-category">NASCAR Finals</span>
                     <h3 class="work-title">Driver Campaign</h3>
+                </div>
+            </div>
+            <div class="work-item" onclick="openVideo('RiwHzm6EOZc')">
+                <img src="https://i.ytimg.com/vi/RiwHzm6EOZc/maxresdefault.jpg" alt="Women of 6888">
+                <div class="play-icon"></div>
+                <div class="work-overlay">
+                    <span class="work-category">Coca-Cola Military</span>
+                    <h3 class="work-title">Women of the 6888</h3>
                 </div>
             </div>
         </div>
@@ -404,12 +413,12 @@
                     <h3 class="work-title">Coke x Oreo</h3>
                 </div>
             </div>
-            <div class="work-item" onclick="openVideo('tMPmzkI-vEo')">
-                <img src="https://i.ytimg.com/vi/tMPmzkI-vEo/maxresdefault.jpg" alt="World of Coca-Cola">
+            <div class="work-item" onclick="openOlympicsCarousel()">
+                <img src="Olympics Images/Tatyana McFadden.jpg" alt="Paris Olympics Photoshoot">
                 <div class="play-icon"></div>
                 <div class="work-overlay">
-                    <span class="work-category">Coca-Cola</span>
-                    <h3 class="work-title">World of Coca-Cola</h3>
+                    <span class="work-category">Team Coke</span>
+                    <h3 class="work-title">Paris Olympics Photoshoot</h3>
                 </div>
             </div>
         </div>
@@ -430,7 +439,7 @@
                 <img src="https://i.ytimg.com/vi/tV9sQ1H8D1M/maxresdefault.jpg" alt="RISE Initiative">
                 <div class="play-icon"></div>
                 <div class="work-overlay">
-                    <span class="work-category">Coca-Cola</span>
+                    <span class="work-category">Discovery x Save the Children</span>
                     <h3 class="work-title">RISE Initiative</h3>
                 </div>
             </div>
@@ -442,20 +451,12 @@
                     <h3 class="work-title">Ronald McDonald House</h3>
                 </div>
             </div>
-            <div class="work-item" onclick="openVideo('CCaZIae0Rxc')">
-                <img src="https://i.ytimg.com/vi/CCaZIae0Rxc/maxresdefault.jpg" alt="Turn Up Fight Hunger">
+            <div class="work-item" onclick="openVideo('25FWz7GhYiw')">
+                <img src="https://i.ytimg.com/vi/25FWz7GhYiw/maxresdefault.jpg" alt="Turn Up Fight Hunger">
                 <div class="play-icon"></div>
                 <div class="work-overlay">
                     <span class="work-category">No Kid Hungry</span>
                     <h3 class="work-title">Turn Up! Fight Hunger</h3>
-                </div>
-            </div>
-            <div class="work-item" onclick="openVideo('RiwHzm6EOZc')">
-                <img src="https://i.ytimg.com/vi/RiwHzm6EOZc/maxresdefault.jpg" alt="Women of 6888">
-                <div class="play-icon"></div>
-                <div class="work-overlay">
-                    <span class="work-category">Coca-Cola Military</span>
-                    <h3 class="work-title">Women of the 6888</h3>
                 </div>
             </div>
         </div>
@@ -476,35 +477,88 @@
         </div>
     </div>
 
-    <div class="carousel-modal" id="carouselModal">
+    <div class="carousel-modal" id="nascarCarousel">
         <div class="carousel-content">
-            <button class="modal-close" onclick="closeCarousel()">×</button>
+            <button class="modal-close" onclick="closeNASCARCarousel()">×</button>
             <div class="carousel-image-container">
-                <div class="carousel-slide active">
+                <div class="nascar-slide active">
                     <img src="https://drive.google.com/uc?export=view&id=1ds7ojXwQ2NKr9VipekFeyyFrlp7cNz0e" alt="NASCAR Campaign 1">
                 </div>
-                <div class="carousel-slide">
+                <div class="nascar-slide">
                     <img src="https://drive.google.com/uc?export=view&id=1lZNlP8t_gVFwp52ZJb2YudFT0h_i9HYs" alt="NASCAR Campaign 2">
                 </div>
-                <div class="carousel-slide">
+                <div class="nascar-slide">
                     <img src="https://drive.google.com/uc?export=view&id=1y8zxjwp1W2ChUXmjh9HXDPckNfGbFOrY" alt="NASCAR Campaign 3">
                 </div>
-                <div class="carousel-slide">
+                <div class="nascar-slide">
                     <img src="https://drive.google.com/uc?export=view&id=16Dvq1qcM_u-we-lSvN2VjFk0j0ECiMH4" alt="NASCAR Campaign 4">
                 </div>
-                <div class="carousel-slide">
+                <div class="nascar-slide">
                     <img src="https://drive.google.com/uc?export=view&id=1kDp51t8pCkedf4TKaGZl1CdbhoF6Uvk7" alt="NASCAR Campaign 5">
                 </div>
-                <div class="carousel-slide">
+                <div class="nascar-slide">
                     <img src="https://drive.google.com/uc?export=view&id=1hLIPtlUoiCBQdbLKZHip9oz3WuCGD60F" alt="NASCAR Campaign 6">
                 </div>
-                <div class="carousel-slide">
+                <div class="nascar-slide">
                     <img src="https://drive.google.com/uc?export=view&id=1BzZkQK1aEBQUjp1T5K7BTF-q9fRWXKTT" alt="NASCAR Campaign 7">
                 </div>
-                <button class="carousel-nav carousel-prev" onclick="changeCarouselSlide(-1)">‹</button>
-                <button class="carousel-nav carousel-next" onclick="changeCarouselSlide(1)">›</button>
+                <button class="carousel-nav carousel-prev" onclick="changeNASCARSlide(-1)">‹</button>
+                <button class="carousel-nav carousel-next" onclick="changeNASCARSlide(1)">›</button>
             </div>
-            <div class="carousel-indicators" id="carouselIndicators"></div>
+            <div class="carousel-indicators" id="nascarIndicators"></div>
+        </div>
+    </div>
+
+    <div class="carousel-modal" id="olympicsCarousel">
+        <div class="carousel-content">
+            <button class="modal-close" onclick="closeOlympicsCarousel()">×</button>
+            <div class="carousel-image-container">
+                <div class="olympics-slide active">
+                    <img src="Olympics Images/Aaron Brown - Coke Glass.jpg" alt="Aaron Brown - Coke Glass">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Aaron Brown - Core Power.jpg" alt="Aaron Brown - Core Power">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Alyssa Naeher - Coke.jpg" alt="Alyssa Naeher - Coke">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Alyssa Naeher.jpg" alt="Alyssa Naeher">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Anna Hall - Coke Can.jpg" alt="Anna Hall - Coke Can">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Anna Hall - Powerade.jpg" alt="Anna Hall - Powerade">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Bobby Finke - Gold Smartwater.jpg" alt="Bobby Finke - Gold Smartwater">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Bobby Finke.jpg" alt="Bobby Finke">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Brooke Raboutou - Powerade.jpg" alt="Brooke Raboutou - Powerade">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Brooke Raboutou.jpg" alt="Brooke Raboutou">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Roderick Townsend - Core. Power.jpg" alt="Roderick Townsend - Core Power">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Roderick Townsend - Packs.jpg" alt="Roderick Townsend - Packs">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Tatyana McFadden - Coke Zero Sugar.jpg" alt="Tatyana McFadden - Coke Zero Sugar">
+                </div>
+                <div class="olympics-slide">
+                    <img src="Olympics Images/Tatyana McFadden.jpg" alt="Tatyana McFadden">
+                </div>
+                <button class="carousel-nav carousel-prev" onclick="changeOlympicsSlide(-1)">‹</button>
+                <button class="carousel-nav carousel-next" onclick="changeOlympicsSlide(1)">›</button>
+            </div>
+            <div class="carousel-indicators" id="olympicsIndicators"></div>
         </div>
     </div>
 
@@ -541,64 +595,122 @@
         document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeVideo(); closeCarousel(); } });
         document.getElementById('videoModal').addEventListener('click', (e) => { if (e.target === e.currentTarget) closeVideo(); });
 
-        // Image Carousel functionality
-        let currentCarouselSlide = 0;
-        const carouselSlides = document.querySelectorAll('.carousel-slide');
-        const totalCarouselSlides = carouselSlides.length;
+        // NASCAR Carousel functionality
+        let currentNASCARSlide = 0;
+        const nascarSlides = document.querySelectorAll('.nascar-slide');
+        const totalNASCARSlides = nascarSlides.length;
 
-        // Create carousel indicators
-        const carouselIndicatorsContainer = document.getElementById('carouselIndicators');
-        for (let i = 0; i < totalCarouselSlides; i++) {
+        const nascarIndicatorsContainer = document.getElementById('nascarIndicators');
+        for (let i = 0; i < totalNASCARSlides; i++) {
             const indicator = document.createElement('button');
             indicator.className = 'carousel-indicator' + (i === 0 ? ' active' : '');
-            indicator.onclick = () => goToCarouselSlide(i);
-            carouselIndicatorsContainer.appendChild(indicator);
+            indicator.onclick = () => goToNASCARSlide(i);
+            nascarIndicatorsContainer.appendChild(indicator);
         }
 
-        function showCarouselSlide(index) {
-            const slides = document.querySelectorAll('.carousel-slide');
-            const indicators = document.querySelectorAll('.carousel-indicator');
+        function showNASCARSlide(index) {
+            const slides = document.querySelectorAll('.nascar-slide');
+            const indicators = nascarIndicatorsContainer.querySelectorAll('.carousel-indicator');
             slides.forEach((slide, i) => {
                 slide.classList.remove('active');
-                indicators[i].classList.remove('active');
+                if (indicators[i]) indicators[i].classList.remove('active');
             });
             slides[index].classList.add('active');
-            indicators[index].classList.add('active');
+            if (indicators[index]) indicators[index].classList.add('active');
         }
 
-        function changeCarouselSlide(direction) {
-            currentCarouselSlide = (currentCarouselSlide + direction + totalCarouselSlides) % totalCarouselSlides;
-            showCarouselSlide(currentCarouselSlide);
+        function changeNASCARSlide(direction) {
+            currentNASCARSlide = (currentNASCARSlide + direction + totalNASCARSlides) % totalNASCARSlides;
+            showNASCARSlide(currentNASCARSlide);
         }
 
-        function goToCarouselSlide(index) {
-            currentCarouselSlide = index;
-            showCarouselSlide(currentCarouselSlide);
+        function goToNASCARSlide(index) {
+            currentNASCARSlide = index;
+            showNASCARSlide(currentNASCARSlide);
         }
 
-        function openImageCarousel() {
-            const modal = document.getElementById('carouselModal');
+        function openNASCARCarousel() {
+            const modal = document.getElementById('nascarCarousel');
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
-            currentCarouselSlide = 0;
-            showCarouselSlide(0);
+            currentNASCARSlide = 0;
+            showNASCARSlide(0);
         }
 
-        function closeCarousel() {
-            const modal = document.getElementById('carouselModal');
+        function closeNASCARCarousel() {
+            const modal = document.getElementById('nascarCarousel');
             modal.classList.remove('active');
             document.body.style.overflow = '';
         }
 
-        // Close carousel on background click
-        document.getElementById('carouselModal').addEventListener('click', (e) => { if (e.target === e.currentTarget) closeCarousel(); });
+        document.getElementById('nascarCarousel').addEventListener('click', (e) => { if (e.target === e.currentTarget) closeNASCARCarousel(); });
 
-        // Keyboard navigation for carousel
+        // Olympics Carousel functionality
+        let currentOlympicsSlide = 0;
+        const olympicsSlides = document.querySelectorAll('.olympics-slide');
+        const totalOlympicsSlides = olympicsSlides.length;
+
+        const olympicsIndicatorsContainer = document.getElementById('olympicsIndicators');
+        for (let i = 0; i < totalOlympicsSlides; i++) {
+            const indicator = document.createElement('button');
+            indicator.className = 'carousel-indicator' + (i === 0 ? ' active' : '');
+            indicator.onclick = () => goToOlympicsSlide(i);
+            olympicsIndicatorsContainer.appendChild(indicator);
+        }
+
+        function showOlympicsSlide(index) {
+            const slides = document.querySelectorAll('.olympics-slide');
+            const indicators = olympicsIndicatorsContainer.querySelectorAll('.carousel-indicator');
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (indicators[i]) indicators[i].classList.remove('active');
+            });
+            slides[index].classList.add('active');
+            if (indicators[index]) indicators[index].classList.add('active');
+        }
+
+        function changeOlympicsSlide(direction) {
+            currentOlympicsSlide = (currentOlympicsSlide + direction + totalOlympicsSlides) % totalOlympicsSlides;
+            showOlympicsSlide(currentOlympicsSlide);
+        }
+
+        function goToOlympicsSlide(index) {
+            currentOlympicsSlide = index;
+            showOlympicsSlide(currentOlympicsSlide);
+        }
+
+        function openOlympicsCarousel() {
+            const modal = document.getElementById('olympicsCarousel');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            currentOlympicsSlide = 0;
+            showOlympicsSlide(0);
+        }
+
+        function closeOlympicsCarousel() {
+            const modal = document.getElementById('olympicsCarousel');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        document.getElementById('olympicsCarousel').addEventListener('click', (e) => { if (e.target === e.currentTarget) closeOlympicsCarousel(); });
+
+        // Keyboard navigation for both carousels
         document.addEventListener('keydown', (e) => {
-            const modal = document.getElementById('carouselModal');
-            if (modal.classList.contains('active')) {
-                if (e.key === 'ArrowLeft') changeCarouselSlide(-1);
-                else if (e.key === 'ArrowRight') changeCarouselSlide(1);
+            const nascarModal = document.getElementById('nascarCarousel');
+            const olympicsModal = document.getElementById('olympicsCarousel');
+
+            if (e.key === 'Escape') {
+                closeNASCARCarousel();
+                closeOlympicsCarousel();
+            }
+
+            if (nascarModal.classList.contains('active')) {
+                if (e.key === 'ArrowLeft') changeNASCARSlide(-1);
+                else if (e.key === 'ArrowRight') changeNASCARSlide(1);
+            } else if (olympicsModal.classList.contains('active')) {
+                if (e.key === 'ArrowLeft') changeOlympicsSlide(-1);
+                else if (e.key === 'ArrowRight') changeOlympicsSlide(1);
             }
         });
     </script>
