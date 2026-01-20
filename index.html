@@ -37,7 +37,7 @@
             backdrop-filter: blur(20px);
         }
         .logo { display: flex; flex-direction: column; }
-        .logo a { text-decoration: none; }
+        .logo a { text-decoration: none; display: flex; flex-direction: column; }
         .logo-name {
             font-family: 'Outfit', sans-serif;
             font-size: 1.1rem;
@@ -45,6 +45,7 @@
             letter-spacing: 0.2em;
             text-transform: uppercase;
             color: var(--text-primary);
+            display: block;
         }
         .logo-title {
             font-family: 'Cormorant Garamond', serif;
@@ -53,6 +54,7 @@
             color: var(--text-secondary);
             margin-top: 2px;
             white-space: nowrap;
+            display: block;
         }
         .nav-links { display: flex; gap: 3rem; list-style: none; }
         .nav-links a {
@@ -340,7 +342,7 @@
                 <div class="play-icon"></div>
                 <div class="work-overlay">
                     <span class="work-category">Sizzle</span>
-                    <h3 class="work-title">BodyArmor - Gatorade Diss</h3>
+                    <h3 class="work-title">BodyArmor Diss</h3>
                 </div>
             </div>
             <div class="work-item" onclick="openVideo('2u21JSGqMFs')">
@@ -394,6 +396,7 @@
         </div>
     </section>
 
+    <!-- Temporarily hidden sections
     <section class="work-section" style="padding-top: 5rem; padding-bottom: 5rem;">
         <p class="section-label">Photoshoots</p>
         <div class="work-grid">
@@ -491,6 +494,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <footer>
         <p class="footer-text">© 2025 Mike Karam. All rights reserved.</p>
